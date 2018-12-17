@@ -149,6 +149,9 @@ http://localhost:8983/banana/
 15) Search the solr index, from its REST interface as per your requirement to get the meaningful analysis and information.
 
 e.g.      
+http://localhost:8983/solr/#/crawldb/analysis      
+http://localhost:8983/solr/#/crawldb/documents      
+http://localhost:8983/solr/#/crawldb/query      
 
 
 Usage:      
