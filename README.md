@@ -115,8 +115,8 @@ The solr should start, running the zookeeper at localhost:9983, and collection c
 11) check solr is running and sparkler dashboard is running.
 open the pages in separate browser windows:
 
-http://localhost:8983/solr
-http://localhost:8983/banana/
+http://localhost:8983/solr     
+http://localhost:8983/banana/     
 
 
 11) Create a file to seed the URLs
@@ -124,9 +124,9 @@ http://localhost:8983/banana/
 crate a file "seedfile.txt", and put the URL's you want to crawl.
 eg. add the below lines, to the seedfile.txt.
 
-https://seekingalpha.com/
-https://stocktwits.com/
-https://finance.yahoo.com/
+https://seekingalpha.com/      
+https://stocktwits.com/      
+https://finance.yahoo.com/      
 
 12) Inject Seed URLs
 
@@ -143,8 +143,8 @@ The documents are already indexed and clustered.
 
 14) We can find the details of our crawling results from both solr ui and banana dashboard.
 
-http://localhost:8983/solr
-http://localhost:8983/banana/
+http://localhost:8983/solr        
+http://localhost:8983/banana/         
 
 15) Search the solr index, from its REST interface as per your requirement to get the meaningful analysis and information.
 
@@ -160,12 +160,12 @@ Future work:
 And we can get real time picture of our interest data, and take a decision at that point of time.
 
 References:
-https://github.com/USCDataScience/sparkler 
-https://spark.apache.org/ 
-http://nutch.apache.org/ 
-https://tika.apache.org/ 
-http://lucene.apache.org/ 
-http://lucene.apache.org/solr/ 
-https://maven.apache.org/ 
-
+https://github.com/USCDataScience/sparkler        
+https://spark.apache.org/         
+http://nutch.apache.org/       
+https://tika.apache.org/         
+http://lucene.apache.org/         
+http://lucene.apache.org/solr/       
+https://maven.apache.org/       
+ 
 
