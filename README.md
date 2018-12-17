@@ -14,7 +14,7 @@ This will help to gather the stock market data from various sources and recommen
 
 This project has been implemented based on the Sparkler. Sparkler is a tool, which can crawl the website using the advanced distributed computing technologies.
 
-The main advantage of Sparkler tool is:
+The main advantage of Sparkler tool is:      
 
 1) Its based on distributed computing technologies.
 2) Its highly scalable.
@@ -55,30 +55,30 @@ Download and build from git repository.
 mkdir ~/sparkler      
 cd sparkler       
 
-2) Download and unzip the zip file for sparkler or clone and checkout the below repository.
+2) Download and unzip the zip file for sparkler or clone and checkout the below repository.         
 https://github.com/USCDataScience/sparkler
 
-3) Once source code are in your local system, go to the sparkler directory. You should see below directories under it.
-ls -ltr       
+3) Once source code are in your local system, go to the sparkler directory. You should see below directories under it.            
+ls -ltr         
 
- sparkler-plugins
- sparkler-deployment
- scalastyle_config.xml
- pom.xml
- eclipse-codeformat.xml
- docs
- conf
- bin
- Release-Checklist.md
- README.md
- LICENSE
- sparkler-tests-base
- sparkler-api
- sparkler-app
- sparkler-ui
+ sparkler-plugins          
+ sparkler-deployment           
+ scalastyle_config.xml           
+ pom.xml           
+ eclipse-codeformat.xml           
+ docs           
+ conf           
+ bin           
+ Release-Checklist.md           
+ README.md           
+ LICENSE           
+ sparkler-tests-base           
+ sparkler-api           
+ sparkler-app           
+ sparkler-ui           
 
-4) Make the build. 
-(Prerequisite is latest maven has been installed in your system. To check, install and run maven pls. refer the page:
+4) Make the build.            
+(Prerequisite is latest maven has been installed in your system. To check, install and run maven pls. refer the page:           
 https://maven.apache.org/)       
 mvn clean package       
 
